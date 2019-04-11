@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+project(image_blur)
+find_package(OpenCV REQUIRED)
+add_executable(image_blur image_blur.cpp)
+target_link_libraries(image_blur ${OpenCV_LIBS})

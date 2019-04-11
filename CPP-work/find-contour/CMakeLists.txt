@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+project( find_contour)
+find_package(OpenCV REQUIRED)
+add_executable( find_contour find_contour.cpp)
+target_link_libraries(find_contour ${OpenCV_LIBS})
