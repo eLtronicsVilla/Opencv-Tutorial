@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+project(edge_detection)
+find_package(OpenCV REQUIRED)
+add_executable(edge_detection edge_detection.cpp)
+target_link_libraries(edge_detection ${OpenCV_LIBS})
