@@ -1,2 +1,2 @@
 # Opencv-Tutorial
-Opencv python Tutorial covers all basics  
+Opencv python and CPP Tutorial covers all basics  
